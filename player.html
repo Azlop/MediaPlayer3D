@@ -5,14 +5,14 @@
 </head>
 <body>
     <script src="js/three.min.js"></script>
-    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-2.1.0.min.js"></script>
 
     <div id="container"></div>
     <div id="info">Media Player 3D</div>
 
     <script>
         // load images
-        var table = [];
+        //var table = [];
         var dir = "images";
         var fileExtension = ".jpg";
 
@@ -20,8 +20,8 @@
             url: dir,
             success: function(data){
                 $(data).find("a:contains("+fileExtension+")").each(function(){
-                    var filename = this.href.replace(window.location.host,"").replace(window.location.pathname, "").replace("http:///","");
-                    paintingarray.push(dir+"/"+filename);
+                    var filename = this.href.replace(window.location.host,"").replace("http:///","");
+                    $("body").append($("<img src=" + dir + filename + "></img>"));
                 });
             }
         });
@@ -29,7 +29,7 @@
         // associate music files to images
 
         // draw table with images
-        var camera, scene, renderer;
+        /*var camera, scene, renderer;
         var controls;
 
         var objects = [];
@@ -50,7 +50,7 @@
 
         function animate(){
 
-        }
+        }*/
     </script>
 </body>
 </html>
