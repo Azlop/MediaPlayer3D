@@ -3,23 +3,115 @@
 <head>
     <title>Media Player 3D</title>
     <style>
+        html, body {
+            height: 100%;
+        }
+
         body {
-            margin: 0px;
-            padding: 0px;
+            background-color: #000000;
+            margin: 0;
+            font-family: Helvetica, sans-serif;;
+            overflow: hidden;
+        }
+
+        a {
+            color: #ffffff;
+        }
+
+        #info {
+            position: absolute;
+            width: 100%;
+            color: #ffffff;
+            padding: 5px;
+            font-family: Monospace;
+            font-size: 13px;
+            font-weight: bold;
+            text-align: center;
+            z-index: 1;
+        }
+
+        #menu {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .element {
+            width: 180px;
+            height: 177px;
+            box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+            border: 1px solid rgba(127,255,255,0.25);
+            text-align: center;
+            cursor: default;
+
+        }
+
+        .element:hover {
+            box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+            border: 1px solid rgba(127,255,255,0.75);
+        }
+
+        .element .number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 12px;
+            color: rgba(127,255,255,0.75);
+        }
+
+        .element .symbol {
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            right: 0px;
+            font-size: 60px;
+            font-weight: bold;
+            color: rgba(255,255,255,0.75);
+            text-shadow: 0 0 10px rgba(0,255,255,0.95);
+        }
+
+        .element .controls {
+            position: absolute;
+            bottom: 15px;
+            left: 0px;
+            right: 0px;
+            font-size: 12px;
+            color: rgba(127,255,255,0.75);
+        }
+
+        button {
+            color: rgba(127,255,255,0.75);
+            background: transparent;
+            outline: 1px solid rgba(127,255,255,0.75);
+            border: 0px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgba(0,255,255,0.5);
+        }
+        button:active {
+            color: #000000;
+            background-color: rgba(0,255,255,0.75);
+        }
+        .player {
+            position: relative;
         }
     </style>
 </head>
 <body>
     <script src="js/three.min.js"></script>
     <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/CSS3DRenderer.js"></script>
 
     <div id="container"></div>
     <div id="info">Media Player 3D</div>
 
     <script>
-        // revolutions per second
-        //var angularSpeed = 0.2;
-        //var lastTime = 0;
+        var data = [
+                "audioSamples/Simple_Minds__-Glitterball.mp3"
+        ];
 
         // this function is executed on each animation frame
         function animate(){
@@ -51,56 +143,40 @@
         // scene
         var scene = new THREE.Scene();
 
-        // material
-        /*var material = [];
-        material.push(new THREE.MeshBasicMaterial({
-            map: THREE.ImageUtils.loadTexture('images/Simple_Minds-Glitterball__.jpg')
-        }));
-        material.push(new THREE.MeshBasicMaterial({
-            map: THREE.ImageUtils.loadTexture('images/ABC-Beauty_Stab__.jpg')
-        }));
-        material.push(new THREE.MeshBasicMaterial({
-            map: THREE.ImageUtils.loadTexture('images/Audioslave-I_Am_The_Highway__.jpg')
-        }));*/
-
-        var material1 = new THREE.MeshLambertMaterial({
-            map: THREE.ImageUtils.loadTexture('images/Simple_Minds-Glitterball__.jpg')
+        var element = document.createElement('div');
+        element.className = 'element';
+        //background-image: url('images/Simple_Minds-Glitterball__.jpg');
+        element.style.backgroundImage = "url('images/Simple_Minds-Glitterball__.jpg')";
+        // Método que adiciona a função a executar quando o elemento é clicado
+        var updateSource = (function x(){
+            var audio = document.getElementById('audio');
+            var source = document.getElementById('mp3source');
+            source.src = data[0];
+            audio.load();
+            audio.play();
         });
-        var material2 = new THREE.MeshLambertMaterial({
-            map: THREE.ImageUtils.loadTexture('images/ABC-Beauty_Stab__.jpg')
-        });
-        var material3 = new THREE.MeshLambertMaterial({
-            map: THREE.ImageUtils.loadTexture('images/Audioslave-I_Am_The_Highway__.jpg')
-        });
+        element.onclick = updateSource;
 
-        // cube
-        var plane1 = new THREE.Mesh(new THREE.PlaneGeometry(150, 150), material1);
-        plane1.overdraw = true;
-        //cube.rotation.x = Math.PI * 0.1;
-        plane1.position.x = -160;
-        scene.add(plane1);
-        var plane2 = new THREE.Mesh(new THREE.PlaneGeometry(150, 150), material2);
-        plane2.overdraw = true;
-        //cube.rotation.x = Math.PI * 0.1;
-        plane2.position.x = 0;
-        scene.add(plane2);
-        var plane3 = new THREE.Mesh(new THREE.PlaneGeometry(150, 150), material3);
-        plane3.overdraw = true;
-        //cube.rotation.x = Math.PI * 0.1;
-        plane3.position.x = 160;
-        scene.add(plane3);
+        //element.style.backgroundImage = 'images/Simple_Minds-Glitterball__.jpg';
 
-        // add subtle ambient lighting
-        var ambientLight = new THREE.AmbientLight(0xbbbbbb);
-        scene.add(ambientLight);
+        //var play = document.createElement('div');
+        //play.className = 'controls';
+        //play.innerHTML = 'Play';
+        //element.appendChild(play);
 
-        // directional lighting
-        var directionalLight = new THREE.DirectionalLight(0xffffff);
-        directionalLight.position.set(1, 1, 1).normalize();
-        scene.add(directionalLight);
+        var object = new THREE.CSS3DObject(element);
+        scene.add(object);
+
+        renderer = new THREE.CSS3DRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.domElement.style.position = 'absolute';
+        document.getElementById( 'container' ).appendChild( renderer.domElement );
 
         // start animation
         animate();
     </script>
+    <audio id="audio" controls="controls">
+        <source id="mp3source" src="" type="audio/mp3"/>
+    </audio>
 </body>
 </html>
