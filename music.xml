@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<music>
+		<banda>ABC</banda>
+		<titulo>Beauty Stab</titulo>
+		<image>images/ABC-Beauty_Stab__.jpg</image>
+		<song>audioSamples/ABC__-Beauty_Stab.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>ABC</banda>
+		<titulo>By_Default_By_Design</titulo>
+		<image>images/ABC-By_Default_By_Design__.jpg</image>
+		<song>audioSamples/ABC__-By_Default_By_Design.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>ABC</banda>
+		<titulo>Hey Citizen</titulo>
+		<image>images/ABC-Hey_Citizen___.jpg</image>
+		<song>audioSamples/ABC__-Hey_Citizen_.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>ABC</banda>
+		<titulo>King Money</titulo>
+		<image>images/ABC-King_Money__.jpg</image>
+		<song>audioSamples/ABC__-King_Money.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>Ocean blue</titulo>
+		<image>images/ABC-Ocean_Blue__.jpg</image>
+		<song>audioSamples/ABC__-Ocean_Blue.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>Doesn't Remind me</titulo>
+		<image>images/Audioslave-Doesn_t_Remind_Me__.jpg</image>
+		<song>audioSamples/Audioslave__-Doesn_t_Remind_Me.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>I am the highway</titulo>
+		<image>images/Audioslave-I_Am_The_Highway__.jpg</image>
+		<song>audioSamples/Audioslave__-I_Am_The_Highway.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>Man or animal</titulo>
+		<image>images/Audioslave-Man_Or_Animal__.jpg</image>
+		<song>audioSamples/Audioslave__-Man_Or_Animal.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>Out of Exile</titulo>
+		<image>images/Audioslave-Out_Of_Exile__.jpg</image>
+		<song>audioSamples/Audioslave__-Out_Of_Exile.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Audioslave</banda>
+		<titulo>The worm</titulo>
+		<image>images/Audioslave-The_Worm__.jpg</image>
+		<song>audioSamples/Audioslave__-The_Worm.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Billy Idol</banda>
+		<titulo>Flesh For Fantasy</titulo>
+		<image>images/Billy_Idol-Flesh_For_Fantasy__.jpg</image>
+		<song>audioSamples/Billy_Idol__-Flesh_For_Fantasy.mp3</song>
+		<genre>punk rock</genre>
+	</music>
+	<music>
+		<banda>Billy Idol</banda>
+		<titulo>It's so Cruel</titulo>
+		<image>images/Billy_Idol-It_s_So_Cruel__.jpg</image>
+		<song>audioSamples/Billy_Idol__-It_s_So_Cruel.mp3</song>
+		<genre>punk rock</genre>
+	</music>
+	<music>
+		<banda>Billy Idol</banda>
+		<titulo>Plastic Jesus</titulo>
+		<image>images/Billy_Idol-Plastic_Jesus__.jpg</image>
+		<song>audioSamples/Billy_Idol__-Plastic_Jesus.mp3</song>
+		<genre>punk rock</genre>
+	</music>
+	<music>
+		<banda>Billy Idol</banda>
+		<titulo>Rebel Yell Session Take</titulo>
+		<image>images/Billy_Idol-Rebel_Yell__Session_Take___.jpg</image>
+		<song>audioSamples/Billy_Idol__-Rebel_Yell__Session_Take_.mp3</song>
+		<genre>punk rock</genre>
+	</music>
+	<music>
+		<banda>Billy Idol</banda>
+		<titulo>White Wedding</titulo>
+		<image>images/Billy_Idol-White_Wedding__.jpg</image>
+		<song>audioSamples/Billy_Idol__-White_Wedding.mp3</song>
+		<genre>punk rock</genre>
+	</music>
+	<music>
+		<banda>Cat Stevens</banda>
+		<titulo>Back to the good old times</titulo>
+		<image>images/Cat_Stevens-Back_To_The_Good_Old_Times__.jpg</image>
+		<song>audioSamples/Cat_Stevens__-Back_To_The_Good_Old_Times.mp3</song>
+		<genre>soft rock</genre>
+	</music>
+	<music>
+		<banda>Cat Stevens</banda>
+		<titulo>C79</titulo>
+		<image>images/Cat_Stevens-C79__.jpg</image>
+		<song>audioSamples/Cat_Stevens__-C79.mp3</song>
+		<genre>soft rock</genre>
+	</music>
+	<music>
+		<banda>Cat Stevens</banda>
+		<titulo>Grab Dance</titulo>
+		<image>images/Cat_Stevens-Crab_Dance__.jpg</image>
+		<song>audioSamples/Cat_Stevens__-Crab_Dance.mp3</song>
+		<genre>soft rock</genre>
+	</music>
+	<music>
+		<banda>Cat Stevens</banda>
+		<titulo>Daytime</titulo>
+		<image>images/Cat_Stevens-Daytime__.jpg</image>
+		<song>audioSamples/Cat_Stevens__-Daytime.mp3</song>
+		<genre>soft rock</genre>
+	</music>
+	<music>
+		<banda>Cat Stevens</banda>
+		<titulo>Fill My Eyes</titulo>
+		<image>images/Cat_Stevens-Fill_My_Eyes__.jpg</image>
+		<song>audioSamples/Cat_Stevens__-Fill_My_Eyes.mp3</song>
+		<genre>soft rock</genre>
+	</music>
+	<music>
+		<banda>Colin Hay</banda>
+		<titulo>Are you Looking at me</titulo>
+		<image>images/Colin_Hay-Are_You_Lookin__At_Me___.jpg</image>
+		<song>audioSamples/Colin_Hay__-Are_You_Lookin__At_Me_.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Colin Hay</banda>
+		<titulo>Children On Parade</titulo>
+		<image>images/Colin_Hay-Children_On_Parade__.jpg</image>
+		<song>audioSamples/Colin_Hay__-Children_On_Parade.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Colin Hay</banda>
+		<titulo>Circles Erratica</titulo>
+		<image>images/Colin_Hay-Circles_Erratica__.jpg</image>
+		<song>audioSamples/Colin_Hay__-Circles_Erratica.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Colin Hay</banda>
+		<titulo>Going Somewhere</titulo>
+		<image>images/Colin_Hay-Going_Somewhere__.jpg</image>
+		<song>audioSamples/Colin_Hay__-Going_Somewhere.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Colin Hay</banda>
+		<titulo>I wish i was still drinking</titulo>
+		<image>images/Colin_Hay-I_Wish_I_Was_Still_Drinking__.jpg</image>
+		<song>audioSamples/Colin_Hay__-I_Wish_I_Was_Still_Drinking.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>A view to kill</titulo>
+		<image>images/Duran_Duran-A_View_to_Kill__.jpg</image>
+		<song>audioSamples/Duran_Duran__-A_View_To_A_Kill.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>American Science</titulo>
+		<image>images/Duran_Duran-American_Science__.jpg</image>
+		<song>audioSamples/Duran_Duran__-American_Science.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>Be my icon</titulo>
+		<image>images/Duran_Duran-Be_My_Icon__.jpg</image>
+		<song>audioSamples/Duran_Duran__-Be_My_Icon.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>Big thing</titulo>
+		<image>images/Duran_Duran-Big_Thing__.jpg</image>
+		<song>audioSamples/Duran_Duran__-Big_Thing.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>Careless Memories</titulo>
+		<image>images/Duran_Duran-Careless_Memories__.jpg</image>
+		<song>audioSamples/Duran_Duran__-Careless_Memories.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>Duran Duran</banda>
+		<titulo>Born to lead</titulo>
+		<image>images/Hoobastank-Born_To_Lead__.jpg</image>
+		<song>audioSamples/Hoobastank__-Born_To_Lead.mp3</song>
+		<genre>post-grunge</genre>
+	</music>
+	<music>
+		<banda>Hoobastank</banda>
+		<titulo>Crawling In the dark</titulo>
+		<image>images/Hoobastank-Crawling_In_The_Dark__.jpg</image>
+		<song>audioSamples/Hoobastank__-Crawling_In_The_Dark.mp3</song>
+		<genre>post-grunge</genre>
+	</music>
+	<music>
+		<banda>Hoobastank</banda>
+		<titulo>Just one</titulo>
+		<image>images/Hoobastank-Just_One__.jpg</image>
+		<song>audioSamples/Hoobastank__-Just_One.mp3</song>
+		<genre>post-grunge</genre>
+	</music>
+	<music>
+		<banda>Hoobastank</banda>
+		<titulo>Let you know</titulo>
+		<image>images/Hoobastank-Let_You_Know__.jpg</image>
+		<song>audioSamples/Hoobastank__-Let_You_Know.mp3</song>
+		<genre>post-grunge</genre>
+	</music>
+	<music>
+		<banda>Hoobastank</banda>
+		<titulo>Look Where we are</titulo>
+		<image>images/Hoobastank-Look_Where_We_Are__.jpg</image>
+		<song>audioSamples/Hoobastank__-Look_Where_We_Are.mp3</song>
+		<genre>post-grunge</genre>
+	</music>
+	<music>
+		<banda>Peter Gabriel</banda>
+		<titulo>Digging in the dirt</titulo>
+		<image>images/Peter_Gabriel-Digging_In_The_Dirt__.jpg</image>
+		<song>audioSamples/Peter_Gabriel__-Digging_In_The_Dirt.mp3</song>
+		<genre>progressive rock</genre>
+	</music>
+	<music>
+		<banda>Peter Gabriel</banda>
+		<titulo>Downside Up</titulo>
+		<image>images/Peter_Gabriel-Downside_Up__.jpg</image>
+		<song>audioSamples/Peter_Gabriel__-Downside_Up.mp3</song>
+		<genre>progressive rock</genre>
+	</music>
+	<music>
+		<banda>Peter Gabriel</banda>
+		<titulo>Gethsemane</titulo>
+		<image>images/Peter_Gabriel-Gethsemane__.jpg</image>
+		<song>audioSamples/Peter_Gabriel__-Gethsemane.mp3</song>
+		<genre>progressive rock</genre>
+	</music>
+	<music>
+		<banda>Peter Gabriel</banda>
+		<titulo>I don't remember</titulo>
+		<image>images/Peter_Gabriel-I_Don_t_Remember__.jpg</image>
+		<song>audioSamples/Peter_Gabriel__-I_Don_t_Remember.mp3</song>
+		<genre>progressive rock</genre>
+	</music>
+	<music>
+		<banda>Peter Gabriel</banda>
+		<titulo>Moribund the burgermeister</titulo>
+		<image>images/Peter_Gabriel-Moribund_The_Burgermeister__.jpg</image>
+		<song>audioSamples/Peter_Gabriel__-Moribund_The_Burgermeister.mp3</song>
+		<genre>progressive rock</genre>
+	</music>
+	<music>
+		<banda>Sufjan Stevens</banda>
+		<titulo>A Short Reprise For Mary Todd</titulo>
+		<image>images/SEVERAL_ARTISTS-A_Short_Reprise_For_Mary_Todd__Who_Went_Insane__But_For_Very_Good_Reasons__.jpg</image>
+		<song>audioSamples/Sufjan_Stevens__-A_Short_Reprise_For_Mary_Todd.mp3</song>
+		<genre>indie folk</genre>
+	</music>
+	<music>
+		<banda>Sufjan Stevens</banda>
+		<titulo>A sun came</titulo>
+		<image>images/SEVERAL_ARTISTS-A_Sun_Came__.jpg</image>
+		<song>audioSamples/Sufjan_Stevens__-A_Sun_Came.mp3</song>
+		<genre>indie folk</genre>
+	</music>
+	<music>
+		<banda>Sufjan Stevens</banda>
+		<titulo>A winner needs a wand</titulo>
+		<image>images/SEVERAL_ARTISTS-A_Winner_Needs_A_Wand__.jpg</image>
+		<song>audioSamples/Sufjan_Stevens__-A_Winner_Needs_A_Wand.mp3</song>
+		<genre>indie folk</genre>
+	</music>
+	<music>
+		<banda>Sufjan Stevens</banda>
+		<titulo>Alanson</titulo>
+		<image>images/SEVERAL_ARTISTS-Alanson__Crooked_River__.jpg</image>
+		<song>audioSamples/Sufjan_Stevens__-Alanson.mp3</song>
+		<genre>indie folk</genre>
+	</music>
+	<music>
+		<banda>Sufjan Stevens</banda>
+		<titulo>All good Naysayers</titulo>
+		<image>images/SEVERAL_ARTISTS-All_Good_Naysayers__Speak_Up___Or_Forever_Hold_Your_Peace___.jpg</image>
+		<song>audioSamples/Sufjan_Stevens__-All_Good_Naysayers.mp3</song>
+		<genre>indie folk</genre>
+	</music>
+	<music>
+		<banda>Nirvana</banda>
+		<titulo>Been a son</titulo>
+		<image>images/SEVERAL_ARTISTS-Been_A_Son__.jpg</image>
+		<song>audioSamples/Nirvana__-Been_A_Son.mp3</song>
+		<genre>grunge</genre>
+	</music>
+	<music>
+		<banda>The Police</banda>
+		<titulo>Behind my camel</titulo>
+		<image>images/SEVERAL_ARTISTS-Behind_My_Camel__.jpg</image>
+		<song>audioSamples/The_Police__-Behind_My_Camel.mp3</song>
+		<genre>rock</genre>
+	</music>
+	<music>
+		<banda>Nirvana</banda>
+		<titulo>Big Cheese</titulo>
+		<image>images/SEVERAL_ARTISTS-Big_Cheese__.jpg</image>
+		<song>audioSamples/Nirvana__-Big_Cheese.mp3</song>
+		<genre>grunge</genre>
+	</music>
+	<music>
+		<banda>Nirvana</banda>
+		<titulo>Big long now</titulo>
+		<image>images/SEVERAL_ARTISTS-Big_Long_Now__.jpg</image>
+		<song>audioSamples/Nirvana__-Big_Long_Now.mp3</song>
+		<genre>grunge</genre>
+	</music>
+	<music>
+		<banda>Nirvana</banda>
+		<titulo>Blew</titulo>
+		<image>images/SEVERAL_ARTISTS-Blew__.jpg</image>
+		<song>audioSamples/Nirvana__-Blew.mp3</song>
+		<genre>grunge</genre>
+	</music>
+	<music>
+		<banda>The Police</banda>
+		<titulo>Born in the 50's</titulo>
+		<image>images/SEVERAL_ARTISTS-Born_In_The_50_s__.jpg</image>
+		<song>audioSamples/The_Police__-Born_In_The_50_s.mp3</song>
+		<genre>rock</genre>
+	</music>
+	<music>
+		<banda>The Police</banda>
+		<titulo>Deathwish</titulo>
+		<image>images/SEVERAL_ARTISTS-Deathwish__.jpg</image>
+		<song>audioSamples/The_Police__-Deathwish.mp3</song>
+		<genre>rock</genre>
+	</music>
+	<music>
+		<banda>The Police</banda>
+		<titulo>Don't stand so close to me</titulo>
+		<image>images/SEVERAL_ARTISTS-Don_t_Stand_So_Close_To_Me__.jpg</image>
+		<song>audioSamples/The_Police__-Don_t_Stand_So_Close_To_Me.mp3</song>
+		<genre>rock</genre>
+	</music>
+	<music>
+		<banda>The Police</banda>
+		<titulo>Hole in my life</titulo>
+		<image>images/SEVERAL_ARTISTS-Hole_In_My_Life__.jpg</image>
+		<song>audioSamples/The_Police__-Hole_In_My_Life.mp3</song>
+		<genre>rock</genre>
+	</music>
+	<music>
+		<banda>Nirvana</banda>
+		<titulo>Milk it</titulo>
+		<image>images/SEVERAL_ARTISTS-Milk_It__.jpg</image>
+		<song>audioSamples/Nirvana__-Milk_It.mp3</song>
+		<genre>grunge</genre>
+	</music>
+	<music>
+		<banda>Simple Minds</banda>
+		<titulo>Calling your name</titulo>
+		<image>images/Simple_Minds-Calling_Your_Name__.jpg</image>
+		<song>audioSamples/Simple_Minds__-Calling_Your_Name.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Simple Minds</banda>
+		<titulo>Capitol City</titulo>
+		<image>images/Simple_Minds-Capitol_City__.jpg</image>
+		<song>audioSamples/Simple_Minds__-Capitol_City.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Simple Minds</banda>
+		<titulo>Careful in career</titulo>
+		<image>images/Simple_Minds-Careful_In_Career__.jpg</image>
+		<song>audioSamples/Simple_Minds__-Careful_In_Career.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Simple Minds</banda>
+		<titulo>Constantinople line</titulo>
+		<image>images/Simple_Minds-Constantinople_Line__.jpg</image>
+		<song>audioSamples/Simple_Minds__-Constantinople_Line.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Simple Minds</banda>	
+		<titulo>Glitterball</titulo>
+		<image>images/Simple_Minds-Glitterball__.jpg</image>
+		<song>audioSamples/Simple_Minds__-Glitterball.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Spin Doctors</banda>	
+		<titulo>Here comes the bride</titulo>
+		<image>images/Spin_Doctors-Here_Comes_The_Bride__.jpg</image>
+		<song>audioSamples/Spin_Doctors__-Here_Comes_The_Bride.mp3</song>
+		<genre>blues rock</genre>
+	</music>
+	<music>
+		<banda>Spin Doctors</banda>	
+		<titulo>Hungry Hamed's</titulo>
+		<image>images/Spin_Doctors-Hungry_Hamed_s__.jpg</image>
+		<song>audioSamples/Spin_Doctors__-Hungry_Hamed_s.mp3</song>
+		<genre>blues rock</genre>
+	</music>
+	<music>
+		<banda>Spin Doctors</banda>	
+		<titulo>I can't believe you're still with her</titulo>
+		<image>images/Spin_Doctors-I_Can_t_Believe_You_re_Still_With_Her__.jpg</image>
+		<song>audioSamples/Spin_Doctors__-I_Can_t_Believe_You_re_Still_With_Her.mp3</song>
+		<genre>blues rock</genre>
+	</music>
+	<music>
+		<banda>Spin Doctors</banda>	
+		<titulo>Jimmy Olsen's blues</titulo>
+		<image>images/Spin_Doctors-Jimmy_Olsen_s_Blues__.jpg</image>
+		<song>audioSamples/Spin_Doctors__-Jimmy_Olsen_s_Blues.mp3</song>
+		<genre>blues rock</genre>
+	</music>
+	<music>
+		<banda>Spin Doctors</banda>	
+		<titulo>Key to the kingdom</titulo>
+		<image>images/Spin_Doctors-Key_To_The_Kingdom__.jpg</image>
+		<song>audioSamples/Spin_Doctors__-Key_To_The_Kingdom.mp3</song>
+		<genre>blues rock</genre>
+	</music>
+	<music>
+		<banda>Talk Talk</banda>	
+		<titulo>Chameleon Day</titulo>
+		<image>images/Talk_Talk-Chameleon_Day__.jpg</image>
+		<song>audioSamples/Talk_Talk__-Chameleon_Day.mp3</song>
+		<genre>post-rock</genre>
+	</music>
+	<music>
+		<banda>Talk Talk</banda>
+		<titulo>Dum Dum girl</titulo>
+		<image>images/Talk_Talk-Dum_Dum_Girl__.jpg</image>
+		<song>audioSamples/Talk_Talk__-Dum_Dum_Girl.mp3</song>
+		<genre>post-rock</genre>
+	</music>
+	<music>
+		<banda>Talk Talk</banda>
+		<titulo>Happiness is easy</titulo>
+		<image>images/Talk_Talk-Happiness_Is_Easy__.jpg</image>
+		<song>audioSamples/Talk_Talk__-Happiness_Is_Easy.mp3</song>
+		<genre>post-rock</genre>
+	</music>
+	<music>
+		<banda>Talk Talk</banda>
+		<titulo>I don't believe in you</titulo>
+		<image>images/Talk_Talk-I_Don_t_Believe_In_You__.jpg</image>
+		<song>audioSamples/Talk_Talk__-I_Don_t_Believe_In_You.mp3</song>
+		<genre>post-rock</genre>
+	</music>
+	<music>
+		<banda>Talk Talk</banda>
+		<titulo>Foolish Friend</titulo>
+		<image>images/Talk_Talk-My_Foolish_Friend__.jpg</image>
+		<song>audioSamples/Talk_Talk__-My_Foolish_Friend.mp3</song>
+		<genre>post-rock</genre>
+	</music>
+	<music>
+		<banda>Talking heads</banda>
+		<titulo>And she was</titulo>
+		<image>images/Talking_Heads-And_She_Was__.jpg</image>
+		<song>audioSamples/Talking_Heads__-And_She_Was.mp3</song>
+		<genre>post-punk</genre>
+	</music>
+	<music>
+		<banda>Talking heads</banda>
+		<titulo>Animals</titulo>
+		<image>images/Talking_Heads-Animals__Live___.jpg</image>
+		<song>audioSamples/Talking_Heads__-Animals__Live_.mp3</song>
+		<genre>post-punk</genre>
+	</music>
+	<music>
+		<banda>Talking heads</banda>
+		<titulo>Born under punches</titulo>
+		<image>images/Talking_Heads-Born_Under_Punches__.jpg</image>
+		<song>audioSamples/Talking_Heads__-Born_Under_Punches.mp3</song>
+		<genre>post-punk</genre>
+	</music>
+	<music>
+		<banda>Talking heads</banda>
+		<titulo>Creatures of love</titulo>
+		<image>images/Talking_Heads-Creatures_Of_Love__.jpg</image>
+		<song>audioSamples/Talking_Heads__-Creatures_Of_Love.mp3</song>~
+		<genre>post-punk</genre>
+	</music>
+	<music>
+		<banda>Talking heads</banda>
+		<titulo>Dream operator</titulo>
+		<image>images/Talking_Heads-Dream_Operator__.jpg</image>
+		<song>audioSamples/Talking_Heads__-Dream_Operator.mp3</song>
+		<genre>post-punk</genre>
+	</music>
+	<music>
+		<banda>The Cardigans</banda>
+		<titulo>After all</titulo>
+		<image>images/The_Cardigans-After_All_____.jpg</image>
+		<song>audioSamples/The_Cardigans__-After_All___.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Cardigans</banda>
+		<titulo>Celia Inside</titulo>
+		<image>images/The_Cardigans-Celia_Inside__.jpg</image>
+		<song>audioSamples/The_Cardigans__-Celia_Inside.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Cardigans</banda>
+		<titulo>Do you believe</titulo>
+		<image>images/The_Cardigans-Do_You_Believe__.jpg</image>
+		<song>audioSamples/The_Cardigans__-Do_You_Believe.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Cardigans</banda>
+		<titulo>Godspell</titulo>
+		<image>images/The_Cardigans-Godspell__.jpg</image>
+		<song>audioSamples/The_Cardigans__-Godspell.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Cardigans</banda>
+		<titulo>Hanging around</titulo>
+		<image>images/The_Cardigans-Hanging_Around__.jpg</image>
+		<song>audioSamples/The_Cardigans__-Hanging_Around.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Cars</banda>
+		<titulo>Down Boys</titulo>
+		<image>images/The_Cars-Down_Boys__.jpg</image>
+		<song>audioSamples/The_Cars__-Down_Boys.mp3</song>
+		<genre>rock, new wave</genre>
+	</music>
+	<music>
+		<banda>The Cars</banda>
+		<titulo>Getting through</titulo>
+		<image>images/The_Cars-Getting_Through__.jpg</image>
+		<song>audioSamples/The_Cars__-Getting_Through.mp3</song>
+		<genre>rock, new wave</genre>
+	</music>
+	<music>
+		<banda>The Cars</banda>
+		<titulo>Lust for kicks</titulo>
+		<image>images/The_Cars-Lust_for_Kicks__.jpg</image>
+		<song>audioSamples/The_Cars__-Lust_for_Kicks.mp3</song>
+		<genre>rock, new wave</genre>
+	</music>
+	<music>
+		<banda>The Cars</banda>
+		<titulo>Moving in stereo</titulo>
+		<image>images/The_Cars-Moving_in_Stereo__.jpg</image>
+		<song>audioSamples/The_Cars__-Moving_in_Stereo.mp3</song>
+		<genre>rock, new wave</genre>
+	</music>
+	<music>
+		<banda>The Cars</banda>
+		<titulo>Night Spots</titulo>
+		<image>images/The_Cars-Night_Spots__.jpg</image>
+		<song>audioSamples/The_Cars__-Night_Spots.mp3</song>
+		<genre>rock, new wave</genre>
+	</music>
+	<music>
+		<banda>The Early November</banda>
+		<titulo>Car in 20</titulo>
+		<image>images/The_Early_November-Car_In_20__.jpg</image>
+		<song>audioSamples/The_Early_November__-Car_In_20.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Early November</banda>
+		<titulo>Ever so sweet</titulo>
+		<image>images/The_Early_November-Ever_So_Sweet__.jpg</image>
+		<song>audioSamples/The_Early_November__-Ever_So_Sweet.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Early November</banda>
+		<titulo>Fluxy</titulo>
+		<image>images/The_Early_November-Fluxy__.jpg</image>
+		<song>audioSamples/The_Early_November__-Fluxy.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Early November</banda>
+		<titulo>Guess What</titulo>
+		<image>images/The_Early_November-Guess_What__.jpg</image>
+		<song>audioSamples/The_Early_November__-Guess_What.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Early November</banda>
+		<titulo>Hair</titulo>
+		<image>images/The_Early_November-Hair__.jpg</image>
+		<song>audioSamples/The_Early_November__-Hair.mp3</song>
+		<genre>indie rock</genre>
+	</music>
+	<music>
+		<banda>The Eurythmics</banda>
+		<titulo>Elvis Costello</titulo>
+		<image>images/The_Eurythmics-Adrian__feat__Elvis_Costello___.jpg</image>
+		<song>audioSamples/The_Eurythmics__-Adrian__feat__Elvis_Costello_.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>The Eurythmics</banda>
+		<titulo>Better to have lost in love than never to have loved at all</titulo>
+		<image>images/The_Eurythmics-Better_To_Have_Lost_In_Love__Than_Never_To_Have_Loved_At_All___.jpg</image>
+		<song>audioSamples/The_Eurythmics__-Better_To_Have_Lost_In_Love__Than_Never_To_Have_Loved_At_All_.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>The Eurythmics</banda>
+		<titulo>Here comes that sinking feeling</titulo>
+		<image>images/The_Eurythmics-Here_Comes_That_Sinking_Feeling__.jpg</image>
+		<song>audioSamples/The_Eurythmics__-Here_Comes_That_Sinking_Feeling.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>The Eurythmics</banda>
+		<titulo>I could give you a mirror</titulo>
+		<image>images/The_Eurythmics-I_Could_Give_You__A_Mirror___.jpg</image>
+		<song>audioSamples/The_Eurythmics__-I_Could_Give_You__A_Mirror_.mp3</song>
+		<genre>pop rock</genre>
+	</music>
+	<music>
+		<banda>The Eurythmics</banda>
+		<titulo>I need a man</titulo>
+		<image>images/The_Eurythmics-I_Need_A_Man__Live___.jpg</image>
+		<song>audioSamples/The_Eurythmics__-I_Need_A_Man__Live_.mp3</song>
+		<genre> pop rock</genre>
+	</music>
+	<music>
+		<banda>Weezer</banda>
+		<titulo>Dope nose</titulo>
+		<image>images/Weezer-Dope_Nose__.jpg</image>
+		<song>audioSamples/Weezer__-Dope_Nose.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Weezer</banda>
+		<titulo>Freak me out</titulo>
+		<image>images/Weezer-Freak_Me_Out__.jpg</image>
+		<song>audioSamples/Weezer__-Freak_Me_Out.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Weezer</banda>
+		<titulo>Hash pipe</titulo>
+		<image>images/Weezer-Hash_Pipe__.jpg</image>
+		<song>audioSamples/Weezer__-Hash_Pipe.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Weezer</banda>
+		<titulo>In the garage</titulo>
+		<image>images/Weezer-In_The_Garage__.jpg</image>
+		<song>audioSamples/Weezer__-In_The_Garage.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Weezer</banda>
+		<titulo>Keep Fishin</titulo>
+		<image>images/Weezer-Keep_Fishin___.jpg</image>
+		<song>audioSamples/Weezer__-Keep_Fishin_.mp3</song>
+		<genre>alternative rock</genre>
+	</music>
+	<music>
+		<banda>Whiskeytown</banda>
+		<titulo>Don't be sad</titulo>
+		<image>images/Whiskeytown-Don_t_Be_Sad__.jpg</image>
+		<song>audioSamples/Whiskeytown__-Don_t_Be_Sad.mp3</song>
+		<genre>alternative country</genre>
+	</music>
+	<music>
+		<banda>Whiskeytown</banda>
+		<titulo>Easy Hearts</titulo>
+		<image>images/Whiskeytown-Easy_Hearts__.jpg</image>
+		<song>audioSamples/Whiskeytown__-Easy_Hearts.mp3</song>
+		<genre>alternative country</genre>
+	</music>
+	<music>
+		<banda>Whiskeytown</banda>
+		<titulo>Inn Town</titulo>
+		<image>images/Whiskeytown-Inn_Town__.jpg</image>
+		<song>audioSamples/Whiskeytown__-Inn_Town.mp3</song>
+		<genre>alternative country</genre>
+	</music>
+	<music>
+		<banda>Whiskeytown</banda>
+		<titulo>Losering</titulo>
+		<image>images/Whiskeytown-Losering__.jpg</image>
+		<song>audioSamples/Whiskeytown__-Losering.mp3</song>
+		<genre>alternative country</genre>
+	</music>
+	<music>
+		<banda>Whiskeytown</banda>
+		<titulo>Paper moon</titulo>
+		<image>images/Whiskeytown-Paper_Moon__.jpg</image>
+		<song>audioSamples/Whiskeytown__-Paper_Moon.mp3</song>
+		<genre>alternative country</genre>
+	</music>	
+</list>

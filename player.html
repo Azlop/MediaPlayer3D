@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Media Player 3D</title>
-    <style>
-        html, body {
-            height: 100%;
-        }
+<title>My first Three.js app</title>
+<style>
+canvas {
+	top:20px;
+	width: 100%;
+	height: 100%;
+}
 
-        body {
-            background-color: #000000;
-            margin: 0;
-            font-family: Helvetica, sans-serif;;
-            overflow: hidden;
-        }
+html, body {
+				height: 100%;
+			}
 
-        a {
+			body {
+				margin: 0;
+				font-family: Arial;
+				overflow: hidden;
+			}
+
+ a {
             color: #ffffff;
         }
 
         #info {
             position: absolute;
             width: 100%;
-            color: #ffffff;
+            color: #000000;
             padding: 5px;
             font-family: Monospace;
             font-size: 13px;
@@ -30,26 +35,30 @@
             z-index: 1;
         }
 
-        #menu {
-            position: absolute;
-            bottom: 20px;
-            width: 100%;
-            text-align: center;
-        }
+		#menu {
+			position: absolute;
+			bottom: 20px;
+			width: 100%;
+			text-align: center;
+		}
 
         .element {
+        	
             width: 180px;
             height: 177px;
             box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
             border: 1px solid rgba(127,255,255,0.25);
             text-align: center;
             cursor: default;
-
+            background-image: url('images/Simple_Minds-Glitterball__.jpg');
+            opacity: 0.75; filter: alpha(opacity=50);
         }
 
         .element:hover {
             box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
             border: 1px solid rgba(127,255,255,0.75);
+            
+            
         }
 
         .element .number {
@@ -67,27 +76,27 @@
             right: 0px;
             font-size: 60px;
             font-weight: bold;
-            color: rgba(255,255,255,0.75);
+            color: rgba(0,0,0,0.75);
             text-shadow: 0 0 10px rgba(0,255,255,0.95);
         }
 
-        .element .controls {
+        /* .element .controls {
             position: absolute;
             bottom: 15px;
             left: 0px;
             right: 0px;
             font-size: 12px;
             color: rgba(127,255,255,0.75);
-        }
+        } */
 
-        button {
+       /*  button {
             color: rgba(127,255,255,0.75);
             background: transparent;
             outline: 1px solid rgba(127,255,255,0.75);
             border: 0px;
             padding: 5px 10px;
             cursor: pointer;
-        }
+        } */
         button:hover {
             background-color: rgba(0,255,255,0.5);
         }
@@ -98,85 +107,89 @@
         .player {
             position: relative;
         }
-    </style>
+        
+        .control{
+           opacity: 0.7; filter: alpha(opacity=70);
+	        height: 179px;
+	        width: 182px;
+	        margin-left:15px;
+	        background-repeat:no-repeat;
+         	background-image: url('images/play.png');   
+         	
+        	visibility: visible;
+	        
+        }
+        .control_play{	       
+        	background-image: url('images/play.png');   
+        	visibility: visible;
+        }
+        
+        .control_pause{       
+        	background-image: url('images/pause.png');   
+        	visibility: visible;     
+        }
+        
+
+		#search {
+				position: absolute;
+				bottom: 30px;
+				width: 100%;
+				text-align: center;
+			}
+
+			#search input {
+				color: #000;
+				background-color: transparent;
+				border: 1px solid #0080ff;
+				padding: 10px;
+				font-size: 20px;
+				-webkit-border-radius: 0px; /* workaround for ios safari */
+			}
+
+			#search button {
+				color: #0080ff;
+				background-color: transparent;
+				border: 1px solid #0080ff;
+				padding: 10px;
+				font-size: 20px;
+				text-transform: uppercase;
+				cursor: pointer;
+			}
+        .number {
+  font-size: 100px;
+  color:blue;
+  font-weight: bold;
+}
+    
+        
+ 
+</style>
 </head>
 <body>
-    <script src="js/three.min.js"></script>
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/CSS3DRenderer.js"></script>
 
-    <div id="container"></div>
+	<button onclick="btn_click_letra()" >Organiza frase</button>
+	<button onclick="btn_click_cilindro()">Organiza cilindro</button>
+	<button onclick="btn_click_estilo()">Organiza por estilo</button>
+	<button onclick="resetCameraAndObject()">Update Position</button>
     <div id="info">Media Player 3D</div>
-
-    <script>
-        var data = [
-                "audioSamples/Simple_Minds__-Glitterball.mp3"
-        ];
-
-        // this function is executed on each animation frame
-        function animate(){
-            // update
-            //var time = (new Date()).getTime();
-            //var timeDiff = time - lastTime;
-            //var angleChange = angularSpeed * timeDiff * 2 * Math.PI / 1000;
-            //cube.rotation.y += angleChange;
-            //lastTime = time;
-
-            // render
-            renderer.render(scene, camera);
-
-            // request new frame
-            requestAnimationFrame(function(){
-                animate();
-            });
-        }
-
-        // renderer
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
-
-        // camera
-        var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-        camera.position.z = 500;
-
-        // scene
-        var scene = new THREE.Scene();
-
-        var element = document.createElement('div');
-        element.className = 'element';
-        //background-image: url('images/Simple_Minds-Glitterball__.jpg');
-        element.style.backgroundImage = "url('images/Simple_Minds-Glitterball__.jpg')";
-        // Método que adiciona a função a executar quando o elemento é clicado
-        var updateSource = (function x(){
-            var audio = document.getElementById('audio');
-            var source = document.getElementById('mp3source');
-            source.src = data[0];
-            audio.load();
-            audio.play();
-        });
-        element.onclick = updateSource;
-
-        //element.style.backgroundImage = 'images/Simple_Minds-Glitterball__.jpg';
-
-        //var play = document.createElement('div');
-        //play.className = 'controls';
-        //play.innerHTML = 'Play';
-        //element.appendChild(play);
-
-        var object = new THREE.CSS3DObject(element);
-        scene.add(object);
-
-        renderer = new THREE.CSS3DRenderer();
-        renderer.setSize( window.innerWidth, window.innerHeight );
-        renderer.domElement.style.position = 'absolute';
-        document.getElementById( 'container' ).appendChild( renderer.domElement );
-
-        // start animation
-        animate();
-    </script>
-    <audio id="audio" controls="controls">
-        <source id="mp3source" src="" type="audio/mp3"/>
+    <div id="container"></div>
+	<div id="search">
+		<input id="query" type="text" onkeydown="search(event);">
+		<button id="button">search</button>
+	</div>	
+	
+	<audio style="display:none;"id="audio" controls="controls">
+        <source id="mp3source" src="" type="audio/mp3">
     </audio>
+    
+    
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/three.min.js"></script>
+	<script src="js/tween.min.js"></script>
+	<script src="js/OrbitControls.js"></script>
+	<script src="js/TrackballControls.js"></script>
+	<script src="js/CSS3DRenderer.js"></script>
+	<script src="js/proj.js"></script>
+    
 </body>
 </html>
